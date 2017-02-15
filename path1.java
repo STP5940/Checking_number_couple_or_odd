@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class stp5940{
+public class path1{
 	public static void main(String[] args)
 	{
 		int input, ret;
