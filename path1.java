@@ -14,8 +14,8 @@ public class path1{
 		if(input%2 == 1)
 		  {
 			  
-		   System.out.print("number KE "+input);
-		   System.out.print("number 1-"+input+"(KU) ");
+		   System.out.println("number KE "+input);
+		   System.out.print("number 1-"+input+"(KE) ");
 		   for(int i=1; i<=input; i++ )
 		     {
 			   System.out.print(i+" ");
@@ -41,5 +41,6 @@ public class path1{
 		System.out.print("Return Programe In put 1 Exit Progame Input 2 ");
 		ret = c.nextInt();
 		}while(ret == 1);
+            System.out.print("Thank you Good by");
 	}
 }
