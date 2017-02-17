@@ -1,6 +1,6 @@
 //Coding-By-Chitiwatthana
 import java.util.Scanner;
-class path3.java{
+class path3{
 	public static void main(String[]args){
 		int input, num, ch, dis, total, all, sum1 = 0, sum2 = 0, sum3 = 0, sum4 = 0, sum5 = 0;
 		String c1 = " ", c2 = " ", c3 = " ", c4 = " ", c5 = " ";
