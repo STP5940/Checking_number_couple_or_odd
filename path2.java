@@ -2,12 +2,14 @@ import java.util.Scanner;
 public class path2{
 	public static void main(String[] args)
 	{
-		int input, ret=1;
+		int input, ret=1, raised;
 		Scanner c = new Scanner(System.in);
+		Scanner n = new Scanner(System.in);
 		System.out.println("Wellcome to Programe");
 		
 		
 		do{
+			int sum = 1;
 			System.out.print("In put n max to two main: ");
 		    input = c.nextInt();
 		if(input > 99)
@@ -15,8 +17,13 @@ public class path2{
 	       System.out.println("Input Error");
 	       ret=1;
 		}else{
-		       input = input*input;
-		       System.out.println("n Raised n = "+input);
+			   System.out.print("Raised: ");
+			   raised  = n.nextInt();
+			   for(int i=1; i<=raised; i++)
+			      {
+		             sum = sum*input;
+		          }
+		       System.out.println(input+" Raised "+raised+" = "+sum);
 		     do{
 		       System.out.print("Return Programe In put 1 Exit Progame Input 2 ");
 		       ret = c.nextInt();
