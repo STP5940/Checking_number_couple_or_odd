@@ -4,12 +4,11 @@ public class path2{
 	{
 		int input, ret=1, raised;
 		Scanner c = new Scanner(System.in);
-		Scanner n = new Scanner(System.in);
 		System.out.println("Wellcome to Programe");
 		
 		
 		do{
-			int sum = 1;
+			double sum = 1;
 			System.out.print("In put n max to two main: ");
 		    input = c.nextInt();
 		if(input > 99)
@@ -18,7 +17,7 @@ public class path2{
 	       ret=1;
 		}else{
 			   System.out.print("Raised: ");
-			   raised  = n.nextInt();
+			   raised  = c.nextInt();
 			   for(int i=1; i<=raised; i++)
 			      {
 		             sum = sum*input;
